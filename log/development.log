@@ -1,0 +1,1288 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 20:14:35 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered attachments/index.html.erb within layouts/application (5.8ms)
+Compiled bootstrap.min.css  (0ms)  (pid 660)
+Compiled jquery.fileupload-ui.css  (63ms)  (pid 660)
+Compiled attachments.css  (2ms)  (pid 660)
+Compiled bootstrap-responsive.min.css  (0ms)  (pid 660)
+Compiled application.css  (93ms)  (pid 660)
+Compiled jquery.js  (1ms)  (pid 660)
+Compiled bootstrap.min.js  (0ms)  (pid 660)
+Compiled jquery_ujs.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/vendor/jquery.ui.widget.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/vendor/load-image.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/vendor/canvas-to-blob.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/vendor/tmpl.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/jquery.iframe-transport.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/jquery.fileupload.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/jquery.fileupload-fp.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/jquery.fileupload-ui.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/locale.js  (0ms)  (pid 660)
+Compiled jquery-fileupload/index.js  (155ms)  (pid 660)
+Compiled attachments.js  (69ms)  (pid 660)
+Compiled application.js  (304ms)  (pid 660)
+Completed 200 OK in 690ms (Views: 578.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /attachments.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /attachments.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Served asset /application.js - 304 Not Modified (70ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 20:14:36 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.2ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 20:55:52 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.1ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered attachments/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 92ms (Views: 78.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /attachments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/locale.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /jquery-fileupload/index.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /attachments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.2ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-02-06 20:55:53 +0530
+Served asset /loading.gif - 304 Not Modified (6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:22:52 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.5ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered attachments/index.html.erb within layouts/application (24.0ms)
+Compiled upload_me.js  (0ms)  (pid 5781)
+Compiled application.js  (79ms)  (pid 5781)
+Completed 200 OK in 935ms (Views: 794.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /bootstrap.min.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery.fileupload-ui.css - 200 OK (3ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /attachments.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /bootstrap-responsive.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /bootstrap.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:53 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /jquery-fileupload/locale.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /jquery-fileupload/index.js - 200 OK (21ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /attachments.js - 200 OK (2ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /upload_me.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /application.js - 200 OK (22ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.1ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 25ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /glyphicons-halflings-white.png - 200 OK (24ms)
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-02-06 23:22:54 +0530
+Served asset /loading.gif - 200 OK (48ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-06 23:23:25 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x00000002f85960 @original_filename="1391626129_56-apple.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"1391626129_56-apple.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20140206-5781-1wqmimv>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (16.4ms)[0m  INSERT INTO `attachments` (`attachment_content_type`, `attachment_file_name`, `attachment_file_size`, `attachment_updated_at`, `created_at`, `updated_at`) VALUES ('image/png', '1391626129_56-apple.png', 5579, '2014-02-06 17:53:25', '2014-02-06 17:53:25', '2014-02-06 17:53:25')
+[paperclip] Saving attachments.
+[paperclip] saving /attachments/attachments/000/000/007/original/1391626129_56-apple.png
+[AWS S3 200 2.041922 0 retries] put_object(:acl=>:public_read,:bucket_name=>"talott_wpcc_forms",:content_length=>5579,:content_type=>"image/png",:data=>Paperclip::UploadedFileAdapter: 1391626129_56-apple.png,:key=>"attachments/attachments/000/000/007/original/1391626129_56-apple.png")  
+
+  [1m[36m (70.2ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 3739ms (Views: 1.1ms | ActiveRecord: 86.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.6ms)[0m  SELECT `attachments`.* FROM `attachments` 
+  Rendered attachments/index.html.erb within layouts/application (2.0ms)
+Compiled upload_me.js  (0ms)  (pid 5781)
+Compiled application.js  (8ms)  (pid 5781)
+Completed 200 OK in 114ms (Views: 110.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /attachments.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery.fileupload-ui.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/locale.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /jquery-fileupload/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /upload_me.js - 200 OK (1ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /attachments.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /application.js - 200 OK (23ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[36mAttachment Load (0.1ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /glyphicons-halflings-white.png - 200 OK (0ms)
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-02-06 23:24:10 +0530
+Served asset /loading.gif - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.1ms)[0m  SELECT `attachments`.* FROM `attachments` 
+  Rendered attachments/index.html.erb within layouts/application (2.8ms)
+Compiled upload_me.js  (0ms)  (pid 5781)
+Compiled application.js  (9ms)  (pid 5781)
+Completed 200 OK in 113ms (Views: 111.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /attachments.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery.fileupload-ui.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/locale.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /jquery-fileupload/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /attachments.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /application.js - 200 OK (22ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /upload_me.js - 200 OK (3ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /glyphicons-halflings-white.png - 200 OK (0ms)
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-02-06 23:29:29 +0530
+Served asset /loading.gif - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:32:17 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered shared/_temp_upload.html.erb (0.5ms)
+  Rendered attachments/index.html.erb within layouts/application (77.0ms)
+Compiled upload_me.js  (0ms)  (pid 5781)
+Compiled application.js  (8ms)  (pid 5781)
+Completed 200 OK in 188ms (Views: 185.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-06 23:32:18 +0530
+Served asset /upload_me.js - 200 OK (2ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 23:32:18 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.1ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:32:20 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered shared/_temp_upload.html.erb (0.0ms)
+  Rendered attachments/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 23:32:20 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.1ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:34:26 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered shared/_temp_upload.html.erb (0.0ms)
+  Rendered attachments/index.html.erb within layouts/application (80.7ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (Missing partial shared/temp_download with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/lalit/open_work/myrepo/las_jq_upload/app/views"
+  * "/home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/twitter-bootstrap-rails-2.2.8/app/views"
+):
+    44: <%=render "shared/temp_upload"%>
+    45: <!-- The template to display files available for download -->
+    46: 
+    47: <%=render "shared/temp_download"%>
+  app/views/attachments/index.html.erb:47:in `_app_views_attachments_index_html_erb___3148410712822965328_70178663441080'
+  app/controllers/attachments_controller.rb:7:in `index'
+
+
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:35:08 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.2ms)[0m  SELECT `attachments`.* FROM `attachments` 
+  Rendered shared/_temp_upload.html.erb (0.0ms)
+  Rendered shared/_temp_donwload.html.erb (0.4ms)
+  Rendered attachments/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:09 +0530
+Served asset /upload_me.js - 304 Not Modified (0ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 23:35:09 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[36mAttachment Load (0.1ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:35:12 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.1ms)[0m  SELECT `attachments`.* FROM `attachments` 
+  Rendered shared/_temp_upload.html.erb (0.1ms)
+  Rendered shared/_temp_donwload.html.erb (0.1ms)
+  Rendered attachments/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery.fileupload-ui.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /attachments.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 200 OK (0ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /attachments.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/locale.js - 200 OK (0ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /upload_me.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /application.js - 200 OK (24ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /glyphicons-halflings-white.png - 200 OK (0ms)
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /loading.gif - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[35mAttachment Load (0.1ms)[0m  SELECT `attachments`.* FROM `attachments` 
+  Rendered shared/_temp_upload.html.erb (0.1ms)
+  Rendered shared/_temp_donwload.html.erb (0.1ms)
+  Rendered attachments/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery.fileupload-ui.css - 200 OK (0ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /attachments.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /bootstrap-responsive.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 200 OK (0ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /upload_me.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/index.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /jquery-fileupload/locale.js - 200 OK (0ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /attachments.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-06 23:35:13 +0530
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-06 23:35:14 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-02-06 23:35:14 +0530
+Served asset /glyphicons-halflings-white.png - 200 OK (0ms)
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-02-06 23:35:14 +0530
+Served asset /loading.gif - 200 OK (0ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-06 23:35:44 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x00000003e9c3e0 @original_filename="swap_space.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"swap_space.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/tmp/RackMultipart20140206-5781-1fl40kt>>}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `attachments` (`attachment_content_type`, `attachment_file_name`, `attachment_file_size`, `attachment_updated_at`, `created_at`, `updated_at`) VALUES ('image/png', 'swap_space.png', 211495, '2014-02-06 18:05:44', '2014-02-06 18:05:44', '2014-02-06 18:05:44')[0m
+[paperclip] Saving attachments.
+[paperclip] saving /attachments/attachments/000/000/008/original/swap_space.png
+[AWS S3 200 41.304943 0 retries] put_object(:acl=>:public_read,:bucket_name=>"talott_wpcc_forms",:content_length=>211495,:content_type=>"image/png",:data=>Paperclip::UploadedFileAdapter: swap_space.png,:key=>"attachments/attachments/000/000/008/original/swap_space.png")  
+
+  [1m[35m (83.2ms)[0m  COMMIT
+Completed 201 Created in 41400ms (Views: 1.0ms | ActiveRecord: 83.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.5ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered shared/_temp_upload.html.erb (0.0ms)
+  Rendered shared/_temp_donwload.html.erb (0.0ms)
+  Rendered attachments/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 80ms (Views: 76.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /attachments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/locale.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /jquery-fileupload/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /attachments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /upload_me.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.2ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 10ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /glyphicons-halflings-white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2014-02-07 00:07:52 +0530
+Served asset /loading.gif - 304 Not Modified (0ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:08:16 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fa79404efc8 @original_filename="upload.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"upload.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-e0ndmg>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 100ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:11:57 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x000000031e4580 @original_filename="upload.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"upload.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-qthptp>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 32ms
+
+NoMethodError (undefined method `pp' for #<AttachmentsController:0x000000031e6178>):
+  app/controllers/attachments_controller.rb:54:in `block in create'
+  app/controllers/attachments_controller.rb:44:in `create'
+
+
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:12:25 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x00000002f9b5a8 @original_filename="upload.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"upload.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-4hmm42>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 19ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:12:58 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fa77c25d048 @original_filename="upload.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"upload.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-1fgfw3r>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 72ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.4ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered shared/_temp_upload.html.erb (0.0ms)
+  Rendered shared/_temp_donwload.html.erb (0.0ms)
+  Rendered attachments/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 33ms (Views: 29.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /attachments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/locale.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /jquery-fileupload/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /attachments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /upload_me.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-07 00:13:56 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.2ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:17:53 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x0000000305dd60 @original_filename="attachment.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"attachment.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-l1sh8j>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 21ms (Views: 0.3ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:18:59 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fa77c059c10 @original_filename="attachment.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"attachment.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-1bd81uy>>}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 70ms (Views: 0.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Processing by AttachmentsController#index as HTML
+  [1m[36mAttachment Load (0.2ms)[0m  [1mSELECT `attachments`.* FROM `attachments` [0m
+  Rendered shared/_temp_upload.html.erb (0.0ms)
+  Rendered shared/_temp_donwload.html.erb (0.0ms)
+  Rendered attachments/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/attachments.css?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /attachments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /jquery.fileupload-ui.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:02 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/vendor/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/load-image.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/vendor/load-image.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/jquery.iframe-transport.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/vendor/canvas-to-blob.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/jquery.fileupload-fp.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/jquery.fileupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/vendor/tmpl.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/vendor/tmpl.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/jquery.fileupload-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/locale.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/locale.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-fileupload/index.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /jquery-fileupload/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/attachments.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /attachments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/upload_me.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /upload_me.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/attachments" for 127.0.0.1 at 2014-02-07 00:20:03 +0530
+Processing by AttachmentsController#index as JSON
+  [1m[35mAttachment Load (0.2ms)[0m  SELECT `attachments`.* FROM `attachments` 
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:20:17 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fa7906a7518 @original_filename="attachment.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"attachment.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-w1iebu>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 12ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:28:34 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x0000000311a168 @original_filename="attachment.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"attachment.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-rrmnd7>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 22ms
+
+NoMethodError (undefined method `message' for #<ActiveModel::Errors:0x000000038be590>):
+  app/controllers/attachments_controller.rb:56:in `block in create'
+  app/controllers/attachments_controller.rb:45:in `create'
+
+
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:29:29 +0530
+
+SyntaxError (/home/lalit/open_work/myrepo/las_jq_upload/app/controllers/attachments_controller.rb:57: syntax error, unexpected ']', expecting keyword_end):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__4266018242771650078__call__3413010270427210410__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lalit/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/lalit/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/lalit/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started POST "/attachments" for 127.0.0.1 at 2014-02-07 00:29:56 +0530
+Processing by AttachmentsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MBZ0vS09znYHEa+yWvTEfC8nsnDG0BQzDiNDa5evyE=", "attachment"=>{"attachment"=>#<ActionDispatch::Http::UploadedFile:0x000000030dea78 @original_filename="upload.rb", @content_type="application/x-ruby", @headers="Content-Disposition: form-data; name=\"attachment[attachment]\"; filename=\"upload.rb\"\r\nContent-Type: application/x-ruby\r\n", @tempfile=#<File:/tmp/RackMultipart20140207-5781-11fql5b>>}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 404 Not Found in 23ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"attachments", :id=>#<Attachment id: nil, attachment_file_name: "upload.rb", attachment_content_type: "application/x-ruby", attachment_file_size: 393, attachment_updated_at: "2014-02-06 18:59:56", created_at: nil, updated_at: nil>}):
+  app/models/attachment.rb:14:in `to_jq_attachment'
+  app/controllers/attachments_controller.rb:57:in `block in create'
+  app/controllers/attachments_controller.rb:45:in `create'
+
+
+  Rendered /home/lalit/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
